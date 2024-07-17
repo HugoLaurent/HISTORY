@@ -1,16 +1,3 @@
-# Node.js
-node_modules/      # Ignore le répertoire node_modules, où sont installées les dépendances npm
+.env
 
-npm-debug.log      # Ignore le fichier npm-debug.log, qui peut être généré lors de l'exécution de commandes npm
-
-# Logs
-logs/              # Ignore le répertoire logs, souvent utilisé pour stocker des fichiers de logs
-
-*.log              # Ignore tous les fichiers avec l'extension .log
-
-# IDE
-.idea/             # Ignore le répertoire .idea/, spécifique à IntelliJ IDEA
-
-.vscode/           # Ignore le répertoire .vscode/, spécifique à Visual Studio Code
-
-.env               # Ignore le fichier .env, utilisé pour stocker des variables d'environnement sensibles
+./back/node_modules/
